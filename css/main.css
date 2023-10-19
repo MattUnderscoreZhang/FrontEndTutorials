@@ -298,6 +298,13 @@ Navbar
 .nav-links {
     display: flex;
     flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.show-links {
+    height: 388px;
 }
 
 .nav-link {
