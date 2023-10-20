@@ -467,6 +467,38 @@ Recipes
     letter-spacing: var(--letterSpacing);
 }
 
+@media only screen and (min-width: 576px) {
+    .recipes-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    .recipe-img {
+        height: 10rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .recipes-container {
+        grid-template-columns: 200px 1fr;
+    }
+    .tags-container {
+        order: 0;
+    }
+    .tags-list {
+        grid-template-columns: 1fr;
+    }
+    .recipe p {
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .recipes-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .recipe h5 {
+        font-size: 1.15rem;
+    }
+}
+
+
 /*
 =============== 
 
