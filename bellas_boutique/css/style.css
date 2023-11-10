@@ -1,0 +1,28 @@
+/* Define font-faces for Allura and Amatic SC */
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+/* CSS files for sections */
+@import url("sections/header.css");
+
+/* Set global default styles */
+:root {
+    --amatic: "Amatic SC", sans-serif;
+    --allura: "Allura", cursive;
+    --primary-color: #601C0E;
+    --secondary-color: #FFC0CB;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-color);
+}
+
+.header__logo {
+    flex: 1;
+}
+
+.header__menu {
+    flex: 1;
+}

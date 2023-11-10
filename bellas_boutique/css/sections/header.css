@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    overflow: hidden;
+    background-color: var(--primary-color);
+}
+
+.header__logo {
+    flex: 1;
+    overflow: hidden;
+    background-color: red;
+}
+
+.header__logo img {
+    height: 130px;
+    max-width: 100%;
+}
+
+.header__nav_menu {
+    flex: 1;
+    display: flex;
+    background-color: green;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
