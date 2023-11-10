@@ -7,22 +7,28 @@
 
 /* Set global default styles */
 :root {
+    /* Fonts */
     --amatic: "Amatic SC", sans-serif;
     --allura: "Allura", cursive;
-    --primary-color: #601C0E;
-    --secondary-color: #FFC0CB;
+    /* Colors */
+    --bella-fur-light: #AFA18Bff;
+    --bella-fur-dark: #6E6652ff;
+    --bella-fur-gray: #9E9E95ff;
+    --bella-stomach: #BFA688ff;
+    --pink: #FFC0CB;
+    /* Screen widths */
+    --max-phone-width: 550px;
+    --max-browser-width: 1280px;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    background-color: var(--primary-color);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.header__logo {
-    flex: 1;
-}
-
-.header__menu {
-    flex: 1;
+body {
+    background-color: var(--bella-fur-light);
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    max-width: var(--max-browser-width);
 }
